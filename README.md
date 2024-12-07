@@ -4,9 +4,11 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for the offical DA
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
-| Name                                                         | Description                       |
-|--------------------------------------------------------------|-----------------------------------|
-| [**50ohm-pocket**](https://github.com/DARC-e-V/50ohm-pocket) | The training app for [50ohm.de](https://50ohm.de) |
+| Icon | Name | Description | Version |
+| --- | --- | --- | --- |
+| <a href=""><img src="fdroid/repo/icons/" alt="entry icon" width="36px" height="36px"></a> | [**entry**]() |  |  (2147483647) |
+| <a href=""><img src="fdroid/repo/icons/" alt="entry icon" width="36px" height="36px"></a> | [**entry**]() |  |  (2147483647) |
+| <a href=""><img src="fdroid/repo/icons/" alt="index-v2 icon" width="36px" height="36px"></a> | [**index-v2**]() |  |  (2147483647) |
 <!-- end apps table -->
 
 ### How to use
