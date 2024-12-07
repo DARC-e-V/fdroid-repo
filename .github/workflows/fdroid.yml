@@ -31,7 +31,6 @@ jobs:
       - name: Set up repo secrets
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
-          export SOURCE_REPO_TOKEN=${{ secrets.GH_ACCESS_TOKEN }}
 
       - name: Fetch APK from Latest Release
         uses: actions/github-script@v6
@@ -39,7 +38,7 @@ jobs:
         with:
           script: |
             const repo = 'DARC-e-V/50ohm-pocket';
-            const token = process.env.SOURCE_REPO_TOKEN;
+            const token =  ${{ secrets.GH_ACCESS_TOKEN }};
   
             const response = await fetch(
               `https://api.github.com/repos/${repo}/releases`,
