@@ -10,7 +10,7 @@ on:
 jobs:
   apps:
     name: "Generate repo from apps listing"
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -25,8 +25,6 @@ jobs:
 
       - name: Install F-Droid server software
         run: |
-         sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo apt-get update
          sudo apt-get install fdroidserver
 
       - name: Set up repo secrets
