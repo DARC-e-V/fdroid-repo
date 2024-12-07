@@ -1,13 +1,12 @@
 # fdroid
-This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This allows you to install and update apps very easily.
+This repository hosts an [F-Droid](https://f-droid.org/) repo for the offical DARC e. V. apps.
 
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
-| Icon | Name | Description | Version |
-| --- | --- | --- | --- |
-| <a href="https://github.com/xarantolus/notality"><img src="fdroid/repo/icons/io.github.xarantolus.notality.10.png" alt="Notality icon" width="36px" height="36px"></a> | [**Notality**](https://github.com/xarantolus/notality) | A very simple note taking app for Android | 1.8.1 (10) |
-| <a href="https://github.com/xarantolus/rockit"><img src="fdroid/repo/icons/" alt="Rock It! icon" width="36px" height="36px"></a> | [**Rock It!**](https://github.com/xarantolus/rockit) | Rock It! is an Android app that helps you stay informed on all things space | 1.6.0 (23) |
+| Name                                                         | Description                       |
+|--------------------------------------------------------------|-----------------------------------|
+| [**50ohm-pocket**](https://github.com/DARC-e-V/50ohm-pocket) | The training app for [50ohm.de](https://50ohm.de) |
 <!-- end apps table -->
 
 ### How to use
@@ -15,7 +14,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 2. Now you can copy the following [link](https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo?fingerprint=080898ae4309aeceb58915e43a4b7c4a3e2cda40c91738e2c02f58339ab2fbd7), then add this repository to your F-Droid client:
 
     ```
-    https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo?fingerprint=080898ae4309aeceb58915e43a4b7c4a3e2cda40c91738e2c02f58339ab2fbd7
+    https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo?fingerprint=fbe5fdc1a82886425681dcb9b2cfdffd4f02fd29985116faf042a646dd692e37
     ```
 
     Alternatively, you can also scan this QR code:
