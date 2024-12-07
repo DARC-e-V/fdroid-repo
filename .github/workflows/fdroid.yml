@@ -33,14 +33,14 @@ jobs:
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           export SOURCE_REPO_TOKEN=${{ secrets.GH_ACCESS_TOKEN }}
 
-      - name: Fetch APK from Release Draft
+      - name: Fetch APK from Latest Release
         uses: actions/github-script@v6
         id: fetch_apk
         with:
           script: |
-            const repo = 'source-owner/source-repo'; // Ersetzen Sie dies mit Ihrem Quell-Repository
-            const token = process.env.SOURCE_REPO_TOKEN; // Token aus Secrets
-            
+            const repo = 'DARC-e-V/50ohm-pocket';
+            const token = process.env.SOURCE_REPO_TOKEN;
+  
             const response = await fetch(
               `https://api.github.com/repos/${repo}/releases`,
               {
@@ -53,21 +53,20 @@ jobs:
             }
   
             const releases = await response.json();
+            const release = releases.find(r => r.draft) || releases[0]; // Prioritize drafts, fallback to latest
   
-            // Finden Sie den Entwurf-Release
-            const draftRelease = releases.find(release => release.draft);
-            if (!draftRelease) {
-              throw new Error("No draft release found!");
+            if (!release) {
+              throw new Error("No releases found!");
             }
   
-            const apkAsset = draftRelease.assets.find(asset => asset.name.endsWith(".apk"));
+            const apkAsset = release.assets.find(asset => asset.name.endsWith(".apk"));
             if (!apkAsset) {
-              throw new Error("No APK found in the draft release!");
+              throw new Error("No APK found in the release!");
             }
   
-            core.info(`APK URL: ${apkAsset.browser_download_url}`);
+            core.info(`Found APK: ${apkAsset.browser_download_url}`);
             core.setOutput("apk_url", apkAsset.browser_download_url);
-    
+      
 
       - name: Download APK
         run: wget ${{ steps.fetch_apk.outputs.apk_url }} -O app-latest.apk
