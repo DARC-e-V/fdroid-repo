@@ -38,8 +38,6 @@ jobs:
         id: fetch_apk
         with:
           script: |
-            const fetch = require("node-fetch");
-  
             const repo = 'source-owner/source-repo'; // Ersetzen Sie dies mit Ihrem Quell-Repository
             const token = process.env.SOURCE_REPO_TOKEN; // Token aus Secrets
             
@@ -69,7 +67,7 @@ jobs:
   
             core.info(`APK URL: ${apkAsset.browser_download_url}`);
             core.setOutput("apk_url", apkAsset.browser_download_url);
-  
+    
 
       - name: Download APK
         run: wget ${{ steps.fetch_apk.outputs.apk_url }} -O app-latest.apk
