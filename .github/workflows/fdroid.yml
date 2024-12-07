@@ -32,51 +32,33 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
 
-      - name: Get the latest release (draft or normal)
+      - name: Get the latest release
         id: get-latest-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+              const latestRelease = github.rest.repos.getLatestRelease({
+                owner: context.repo.owner,
+                repo: context.repo.repo
+              });
+              console.log(JSON.stringify(latestRelease.data));
+              return latestRelease.data;
+      - name: Extract APK path
+        id: extract-apk-path
+        uses: actions/github-script@v6
+        with:
+          script: |
+             const release = JSON.parse('${{ steps.get-latest-release.outputs.result }}');
+             const assets = release.assets;
+             const apkAsset = assets.find(asset => asset.name.endsWith('.apk'));
+             core.setOutput('apk-path', apkAsset.url);
+
+      - name: Print the APK path
         run: |
-          # Use GitHub API to fetch all releases
-          response=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-            https://api.github.com/repos/DARC-e-V/50ohm-pocket/releases)
-  
-          # Check for the latest draft release
-          latest_draft=$(echo "$response" | jq -r '.[] | select(.draft == true) | . | {id: .id, name: .name, assets: .assets} | @json' | head -n 1)
-  
-          if [ -n "$latest_draft" ]; then
-            echo "Draft release found."
-            release_type="draft"
-            release=$(echo "$latest_draft")
-          else
-            echo "No draft release found. Falling back to the latest normal release."
-            release_type="normal"
-            release=$(echo "$response" | jq -r '.[] | select(.draft == false) | . | {id: .id, name: .name, assets: .assets} | @json' | head -n 1)
-          fi
-  
-          if [ -z "$release" ]; then
-            echo "No releases found."
-            exit 1
-          fi
-  
-          # Extract details of the release
-          release_name=$(echo "$release" | jq -r '.name')
-          apk_url=$(echo "$release" | jq -r '.assets[] | select(.name | endswith(".apk")) | .browser_download_url')
-  
-          if [ -z "$apk_url" ]; then
-            echo "No APK found in the selected release."
-            exit 1
-          fi
-  
-          # Output the results
-          echo "Latest $release_type release: $release_name"
-          echo "APK URL: $apk_url"
-          echo "::set-output name=apk_url::$apk_url"
-  
-        
+          echo "APK Path: ${{ steps.extract-apk-path.outputs.apk-path }}"
 
       - name: Download APK
-        run: wget ${{ steps.fetch_apk.outputs.apk_url }} -O app-latest.apk
+        run: wget ${{ steps.extract-apk-path.outputs.apk-path }} -O app-latest.apk
 
       - name: Build F-Droid Repo
         run: |
