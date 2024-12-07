@@ -4,11 +4,9 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for the offical DA
 ### Apps
 
 <!-- This table is auto-generated. Do not edit -->
-| Icon | Name | Description | Version |
-| --- | --- | --- | --- |
-| <a href=""><img src="fdroid/repo/icons/" alt="entry icon" width="36px" height="36px"></a> | [**entry**]() |  |  (2147483647) |
-| <a href=""><img src="fdroid/repo/icons/" alt="entry icon" width="36px" height="36px"></a> | [**entry**]() |  |  (2147483647) |
-| <a href=""><img src="fdroid/repo/icons/" alt="index-v2 icon" width="36px" height="36px"></a> | [**index-v2**]() |  |  (2147483647) |
+| Name                                                         | Description                       |
+|--------------------------------------------------------------|-----------------------------------|
+| [**50ohm-pocket**](https://github.com/DARC-e-V/50ohm-pocket) | The training app for [50ohm.de](https://50ohm.de) |
 <!-- end apps table -->
 
 ### How to use
@@ -29,9 +27,6 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for the offical DA
 4. You can now install my apps, e.g. start by searching for "Notality" in the F-Droid client.
 
 Please note that some apps published here might contain [Anti-Features](https://f-droid.org/en/docs/Anti-Features/). If you can't find an app by searching for it, you can go to settings and enable "Include anti-feature apps".
-
-### For developers
-If you are a developer and want to publish your own apps right from GitHub Actions as an F-Droid repo, you can fork/copy this repo and see  [the documentation](setup.md) for more information on how to set it up.
 
 ### [License](LICENSE)
 The license is for the files in this repository, *except* those in the `fdroid` directory. These files *might* be licensed differently; you can use an F-Droid client to get the details for each app.
