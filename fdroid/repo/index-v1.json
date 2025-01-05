@@ -1,84 +1,17 @@
 {
   "repo": {
-    "timestamp": 1733570924000,
-    "version": 20001,
+    "timestamp": 1736046975000,
+    "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
     "address": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
+    "webBaseUrl": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
     "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
   },
   "requests": {
     "install": [],
     "uninstall": []
   },
-  "apps": [
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "entry",
-      "added": 1733570924000,
-      "packageName": "1a4fd06c2d5a029fc5cb4ba2530a8d5bbb87ddbde9ce23b8cd2943f3c0b6844b",
-      "lastUpdated": 1733570924000
-    },
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "entry",
-      "added": 1733570924000,
-      "packageName": "38f3a794c34c1e3515f1d2fa15244aef0dd687b4a81c5716d307dba0cd54691f",
-      "lastUpdated": 1733570924000
-    },
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "index-v2",
-      "added": 1733570924000,
-      "packageName": "992aff7afb3c1ec84930b437223fc3b7b5b103f5d7db9ef9c9a68c749159e8c1",
-      "lastUpdated": 1733570924000
-    }
-  ],
-  "packages": {
-    "1a4fd06c2d5a029fc5cb4ba2530a8d5bbb87ddbde9ce23b8cd2943f3c0b6844b": [
-      {
-        "added": 1733570924000,
-        "apkName": "entry.json",
-        "hash": "1a4fd06c2d5a029fc5cb4ba2530a8d5bbb87ddbde9ce23b8cd2943f3c0b6844b",
-        "hashType": "sha256",
-        "packageName": "1a4fd06c2d5a029fc5cb4ba2530a8d5bbb87ddbde9ce23b8cd2943f3c0b6844b",
-        "size": 205,
-        "versionName": "1a4fd06"
-      }
-    ],
-    "38f3a794c34c1e3515f1d2fa15244aef0dd687b4a81c5716d307dba0cd54691f": [
-      {
-        "added": 1733570924000,
-        "apkName": "entry.jar",
-        "hash": "38f3a794c34c1e3515f1d2fa15244aef0dd687b4a81c5716d307dba0cd54691f",
-        "hashType": "sha256",
-        "packageName": "38f3a794c34c1e3515f1d2fa15244aef0dd687b4a81c5716d307dba0cd54691f",
-        "size": 2767,
-        "versionName": "38f3a79"
-      }
-    ],
-    "992aff7afb3c1ec84930b437223fc3b7b5b103f5d7db9ef9c9a68c749159e8c1": [
-      {
-        "added": 1733570924000,
-        "apkName": "index-v2.json",
-        "hash": "992aff7afb3c1ec84930b437223fc3b7b5b103f5d7db9ef9c9a68c749159e8c1",
-        "hashType": "sha256",
-        "packageName": "992aff7afb3c1ec84930b437223fc3b7b5b103f5d7db9ef9c9a68c749159e8c1",
-        "size": 715,
-        "versionName": "992aff7"
-      }
-    ]
-  }
+  "apps": [],
+  "packages": {}
 }
