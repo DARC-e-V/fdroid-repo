@@ -1,0 +1,41 @@
+## What's Changed
+* Updated cli and fixed some bugs by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/1
+* Version 1.0.0 by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/17
+* Android fix by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/18
+* Final improvements to be able to publish to the Playstore by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/19
+* Fixed bugs and fixed bugs for ios by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/20
+* Dev by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/21
+* Implemented link to the privacy statement in the three dots menu. by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/22
+* Release/playstore adds Playstore support by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/26
+* added proper license information by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/24
+* Added privacy policy by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/23
+* Funktag Version 1.0.2 by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/37
+* Added Ci Build env with signing by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/38
+* Renamed Nutzungsplan.pdf to Anlage_1_AFuV.pdf an changed the texts ac… by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/41
+* First attempt at instructions to build this. by @aknrdureegaesr in https://github.com/DARC-e-V/50ohm-pocket/pull/50
+* Füge "Nutzungsplan" zu Question widget hinzu by @frederik-h in https://github.com/DARC-e-V/50ohm-pocket/pull/46
+* fixed typo by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/42
+* Some simple UI fixes by @einergehtnochrein in https://github.com/DARC-e-V/50ohm-pocket/pull/47
+* Fix the build. Thanks to thehilde! by @aknrdureegaesr in https://github.com/DARC-e-V/50ohm-pocket/pull/49
+* Get main up to date  by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/51
+* Fix: broken link  to Anlage 1 AFuV by @fritzsche in https://github.com/DARC-e-V/50ohm-pocket/pull/52
+* Center chapterSelection screen by @fritzsche in https://github.com/DARC-e-V/50ohm-pocket/pull/53
+* Fix: Now the Button "Weiter" should be centered. by @fritzsche in https://github.com/DARC-e-V/50ohm-pocket/pull/55
+* Fix: Increase Image size by @fritzsche in https://github.com/DARC-e-V/50ohm-pocket/pull/54
+* Automatic build and deployment pipeline by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/73
+* fix: updated Anlage_1_AFuV.pdf and Formelsammlung.pdf by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/74
+* Fix/dep upgrades by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/79
+* Fixing the chapter selection by @LukasJahn2001 in https://github.com/DARC-e-V/50ohm-pocket/pull/78
+* fixed question jsons titles by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/80
+* App Version 1.0.6 by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/81
+
+## New Contributors
+* @Konradrundfunk made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/1
+* @DF3LX made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/19
+* @aknrdureegaesr made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/50
+* @frederik-h made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/46
+* @einergehtnochrein made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/47
+* @fritzsche made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/52
+* @LukasJahn2001 made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/78
+
+**Full Changelog**: https://github.com/DARC-e-V/50ohm-pocket/commits/v1.0.6+1

@@ -1,0 +1,22 @@
+AuthorName: DARC-e-V
+Categories:
+    - Science & Education
+CurrentVersion: 1.0.6
+CurrentVersionCode: 1
+Description: |
+    Egal ob im Bus, Bahn oder auf der Parkbank:
+    Die passende Begleitung zu 50ohm.de für unterwegs.
+    Lerne wo du willst. Wann du willst.
+    Egal ob Erstprüfung oder Upgrade.
+
+    <b>Features</b>
+
+    - Fragen lernen nach 50ohm.de
+    - Lernstandsübersicht
+    - Zugriff auf Nutzungsplan und Formeldokument
+IssueTracker: ""
+License: GPL-3.0
+Name: 50ohm.de Lernapp
+SourceCode: https://github.com/DARC-e-V/50ohm-pocket
+Summary: ""
+WebSite: ""

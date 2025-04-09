@@ -15,7 +15,76 @@
     },
     "address": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
     "webBaseUrl": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
-    "timestamp": 1744082636000
+    "timestamp": 1744169140000
   },
-  "packages": {}
+  "packages": {
+    "de.darc.fuenfizigohm": {
+      "metadata": {
+        "added": 1744169135000,
+        "categories": [
+          "Science & Education"
+        ],
+        "lastUpdated": 1744169135000,
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/DARC-e-V/50ohm-pocket",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/de.darc.fuenfizigohm/en-US/phoneScreenshots/1.png",
+                "sha256": "d8011982d1f5b4402384657d945df6e18bc8e87d84b0e1b89a3250918e3530d3",
+                "size": 82051
+              },
+              {
+                "name": "/de.darc.fuenfizigohm/en-US/phoneScreenshots/2.png",
+                "sha256": "5812da92e2cb14375d916ebd1aa24c659096e6303b6912e970bd3386df5e0505",
+                "size": 50773
+              }
+            ]
+          }
+        },
+        "authorName": "DARC-e-V",
+        "name": {
+          "en-US": "50ohm.de Lernapp"
+        },
+        "description": {
+          "en-US": "Egal ob im Bus, Bahn oder auf der Parkbank:\nDie passende Begleitung zu 50ohm.de für unterwegs.\nLerne wo du willst. Wann du willst.\nEgal ob Erstprüfung oder Upgrade.\n\n<b>Features</b>\n\n- Fragen lernen nach 50ohm.de\n- Lernstandsübersicht\n- Zugriff auf Nutzungsplan und Formeldokument\n"
+        },
+        "preferredSigner": "b0b4f8c58b70095212108f5b5e7e7ece68f4dc69ec342af0a1e73bf765fa0ceb"
+      },
+      "versions": {
+        "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac": {
+          "added": 1744169135000,
+          "file": {
+            "name": "/50ohm-pocket_v1.0.61.apk",
+            "sha256": "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac",
+            "size": 26909449
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.0.6",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 19,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "b0b4f8c58b70095212108f5b5e7e7ece68f4dc69ec342af0a1e73bf765fa0ceb"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "de.darc.fuenfizigohm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }
