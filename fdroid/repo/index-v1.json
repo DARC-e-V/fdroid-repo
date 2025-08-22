@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1755747129000,
+    "timestamp": 1755833608000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -24,9 +24,9 @@
       "license": "GPL-3.0",
       "name": "50ohm.de Lernapp",
       "sourceCode": "https://github.com/DARC-e-V/50ohm-pocket",
-      "added": 1755747123000,
+      "added": 1755833603000,
       "packageName": "de.darc.fuenfizigohm",
-      "lastUpdated": 1755747123000,
+      "lastUpdated": 1755833603000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -41,7 +41,7 @@
   "packages": {
     "de.darc.fuenfizigohm": [
       {
-        "added": 1755747123000,
+        "added": 1755833603000,
         "apkName": "50ohm-pocket_v1.0.61.apk",
         "hash": "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac",
         "hashType": "sha256",
