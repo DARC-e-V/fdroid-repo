@@ -15,16 +15,16 @@
     },
     "address": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
     "webBaseUrl": "https://raw.githubusercontent.com/DARC-e-V/fdroid-repo/main/fdroid/repo",
-    "timestamp": 1759807355000
+    "timestamp": 1759893722000
   },
   "packages": {
     "de.darc.fuenfizigohm": {
       "metadata": {
-        "added": 1759807350000,
+        "added": 1759893716000,
         "categories": [
           "Science & Education"
         ],
-        "lastUpdated": 1759807350000,
+        "lastUpdated": 1759893716000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/DARC-e-V/50ohm-pocket",
         "screenshots": {
@@ -54,7 +54,7 @@
       },
       "versions": {
         "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac": {
-          "added": 1759807350000,
+          "added": 1759893716000,
           "file": {
             "name": "/50ohm-pocket_v1.0.61.apk",
             "sha256": "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac",
