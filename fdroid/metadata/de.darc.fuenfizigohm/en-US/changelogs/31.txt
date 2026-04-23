@@ -1,0 +1,25 @@
+## What's Changed
+* chore(pubspec): pin previous version of flutter_math_fork by @AndreasPopel in https://github.com/DARC-e-V/50ohm-pocket/pull/85
+* feat: Added basic HTML tag handling to questions by @D45Hub in https://github.com/DARC-e-V/50ohm-pocket/pull/96
+* Andreas popel chore/add fvm replaces #82 by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/97
+* Dev by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/98
+* fix fvm usage by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/99
+* fix nc upload by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/100
+* fix ndk version by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/101
+* fix path by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/102
+* added @fritzsche implementation of the "Hilfsmittel" by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/103
+* Release Version 1.0.7 by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/104
+* add question count per category by @JohannesLks in https://github.com/DARC-e-V/50ohm-pocket/pull/111
+* save progress directly after answering single question by @JohannesLks in https://github.com/DARC-e-V/50ohm-pocket/pull/118
+* Remove printed html tags by @JohannesLks in https://github.com/DARC-e-V/50ohm-pocket/pull/112
+* show progress in session by @JohannesLks in https://github.com/DARC-e-V/50ohm-pocket/pull/117
+* fix: wrong text color introduced in bcf7dc641e0d76ca6dafad2a7de3102a8… by @JohannesLks in https://github.com/DARC-e-V/50ohm-pocket/pull/123
+* Fix the chapter selection for non-50ohm by @LukasJahn2001 in https://github.com/DARC-e-V/50ohm-pocket/pull/135
+* feat: Add helper "Lernhilfen" to toolbar by @D45Hub in https://github.com/DARC-e-V/50ohm-pocket/pull/136
+
+## New Contributors
+* @AndreasPopel made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/85
+* @D45Hub made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/96
+* @JohannesLks made their first contribution in https://github.com/DARC-e-V/50ohm-pocket/pull/111
+
+**Full Changelog**: https://github.com/DARC-e-V/50ohm-pocket/compare/v1.0.6+1...v1.1.0+31

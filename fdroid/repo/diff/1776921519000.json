@@ -1,0 +1,19 @@
+{
+  "repo": {
+    "timestamp": 1776921525000
+  },
+  "packages": {
+    "de.darc.fuenfizigohm": {
+      "metadata": {
+        "summary": {
+          "en-US": "Die App zum Lernen auf die Amateurfunkprüfung passend zu 50ohm.de"
+        }
+      },
+      "versions": {
+        "c63d1d5f83c4def2c0cff77b26880e99a5591572c755ab7ca835ea61776c5ef9": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

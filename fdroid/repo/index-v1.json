@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1776230032000,
+    "timestamp": 1776921525000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -18,22 +18,23 @@
       "categories": [
         "Science & Education"
       ],
-      "suggestedVersionName": "1.0.6",
-      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.1.0",
+      "suggestedVersionCode": "31",
       "description": "Egal ob im Bus, Bahn oder auf der Parkbank:\nDie passende Begleitung zu 50ohm.de f\u00fcr unterwegs.\nLerne wo du willst. Wann du willst.\nEgal ob Erstpr\u00fcfung oder Upgrade.\n\n<b>Features</b>\n\n- Fragen lernen nach 50ohm.de\n- Lernstands\u00fcbersicht\n- Zugriff auf Nutzungsplan und Formeldokument\n",
       "license": "GPL-3.0",
       "name": "50ohm.de Lernapp",
       "sourceCode": "https://github.com/DARC-e-V/50ohm-pocket",
-      "added": 1776230026000,
+      "summary": "Die App zum Lernen auf die Amateurfunkpr\u00fcfung passend zu 50ohm.de",
+      "added": 1776921519000,
       "packageName": "de.darc.fuenfizigohm",
-      "lastUpdated": 1776230026000,
+      "lastUpdated": 1776921519000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
             "1.png",
             "2.png"
           ],
-          "whatsNew": "## What's Changed\n* Updated cli and fixed some bugs by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/1\n* Version 1.0.0 by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/17\n* Android fix by @Konradrundfunk in https://github.com/DARC-e-V/50ohm-pocket/pull/18\n* Final improvements to be able to publish to the Playstore by @DF3LX in https://github.com/DARC-e-V/50ohm-pocket/pull/19\n* Fixed bugs and fixed bugs for ios by @Konradrundfunk in https://github.com/DARC-e-"
+          "whatsNew": "## What's Changed\n* chore(pubspec): pin previous version of flutter_math_fork by @AndreasPopel in https://github.com/DARC-e-V/50ohm-pocket/pull/85\n* feat: Added basic HTML tag handling to questions by @D45Hub in https://github.com/DARC-e-V/50ohm-pocket/pull/96\n* Andreas popel chore/add fvm replaces #82 by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/97\n* Dev by @FPfannkuch in https://github.com/DARC-e-V/50ohm-pocket/pull/98\n* fix fvm usage by @FPfannkuch in https://github.com/DAR"
         }
       }
     }
@@ -41,7 +42,32 @@
   "packages": {
     "de.darc.fuenfizigohm": [
       {
-        "added": 1776230026000,
+        "added": 1776921519000,
+        "apkName": "50ohm-pocket_v1.1.031.apk",
+        "hash": "c63d1d5f83c4def2c0cff77b26880e99a5591572c755ab7ca835ea61776c5ef9",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "de.darc.fuenfizigohm",
+        "sig": "125d123da0c43a4b6cbd249b34f3eca8",
+        "signer": "b0b4f8c58b70095212108f5b5e7e7ece68f4dc69ec342af0a1e73bf765fa0ceb",
+        "size": 28533565,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "de.darc.fuenfizigohm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 31,
+        "versionName": "1.1.0"
+      },
+      {
+        "added": 1776921519000,
         "apkName": "50ohm-pocket_v1.0.61.apk",
         "hash": "8419d2a5799f775f3accfd85b2305a0765dea99494bfde538c86759b4d2267ac",
         "hashType": "sha256",

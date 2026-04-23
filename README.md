@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for the offical DA
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/DARC-e-V/50ohm-pocket"><img src="fdroid/repo/icons/" alt="50ohm.de Lernapp icon" width="36px" height="36px"></a> | [**50ohm.de Lernapp**](https://github.com/DARC-e-V/50ohm-pocket) |  | 1.0.6 (1) |
+| <a href="https://github.com/DARC-e-V/50ohm-pocket"><img src="fdroid/repo/icons/" alt="50ohm.de Lernapp icon" width="36px" height="36px"></a> | [**50ohm.de Lernapp**](https://github.com/DARC-e-V/50ohm-pocket) | Die App zum Lernen auf die Amateurfunkprüfung passend zu 50ohm.de | 1.1.0 (31) |
 <!-- end apps table -->
 
 ### How to use
